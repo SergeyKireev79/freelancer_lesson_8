@@ -1,0 +1,306 @@
+/* &display=swap); */
+
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic&display=swap);
+
+body{
+	background-color: rgba(204,204,204,1); 
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+	padding: 50px 0 50px 0;	
+	background: -webkit-linear-gradient(left, rgba(96,108,136,1) 0%,rgba(162,219,229,1) 26%,rgba(170,209,239,1) 75%,rgba(63,76,107,1) 100%);
+	box-shadow: inset 0px 0px 10px 3px #f5f5f5;
+	margin-bottom: 20px;
+}
+.sherlok {
+	font-family:'Caveat';
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	font-size: 100px;
+	letter-spacing: 20px;
+	margin-bottom: 20px;
+}
+.sherlok:hover{
+	text-decoration: underline;
+}
+
+.title {
+	font-family:'Caveat';
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.depiction {
+	font-family:'Ubuntu';
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+	}
+	 h2{
+		font-family:'Caveat';
+		font-weight: 600;
+		font-size: 45px;
+		text-align: center;
+		margin-bottom: 20px;
+	
+	}
+	 p{
+		opacity: 0.5;
+		text-indent: 50px;
+		line-height: 130%;
+		text-align: justify;
+	}
+	p:hover{
+		opacity: 1;
+			}
+
+.episodes {
+	padding: 20px;
+			}
+.episode {
+display: inline-block;
+width: 300px;
+height: 150px;
+background: url(../img/Этюд\ в\ розовых\ тонах.jpg) 0 0 / cover no-repeat;
+font-family:'Ubuntu';
+font-weight: 400;
+font-size: 20px;
+color:gold ;
+text-shadow: 2px 2px 1px black;
+text-transform: uppercase;
+text-align: center;
+padding-top: 120px;
+margin-right: 17px;
+			}
+.episode:focus{
+outline: 5px solid rgb(0, 26, 255);
+			}	
+			.episodes a:nth-child(n+8) {
+margin-top: 20px;
+			}
+
+.episodes a:nth-child(2) {
+	background: url(../img/Этюд\ в\ розовых\ тонах.jpg) 0 0 / cover no-repeat;
+			}
+			.episodes a:nth-child(3) {
+				background: url(../img/Слепой\ банкир.jpg) 0 0 / cover no-repeat;
+						}
+						.episodes a:nth-child(4) {
+							background: url(../img/Большая\ игра.jpg) 0 0 / cover no-repeat;
+									}
+									.episodes a:nth-child(5) {
+										background: url(../img/Скандал\ в\ Белгравии.jpg) 0 0 / cover no-repeat;
+												}
+												.episodes a:nth-child(6) {
+													background: url(../img/Собака\ Баскервилей.jpg) 0 0 / cover no-repeat;
+															}
+															.episodes a:nth-child(7) {
+																background: url(../img/Рейхенбахский\ водопад.jpg) 0 0 / cover no-repeat;
+																		}
+																		.episodes a:nth-child(8) {
+																			background: url(../img/Пустой\ катафалк.jpg) 0 0 / cover no-repeat;
+																					}
+																					.episodes a:nth-child(9) {
+																						background: url(../img/Знак\ трех.jpg) 0 0 / cover no-repeat;
+																								}
+																								.episodes a:nth-child(10) {
+																									background: url(../img/Его\ прощальный\ обет.jpg) 0 0 / cover no-repeat;
+																											}
+																											.episodes a:nth-child(11) {
+																												background: url(../img/Шесть\ Тэтчер.jpg) 0 0 / cover no-repeat;
+																														}
+																														.episodes a:nth-child(12) {
+																															background: url(../img/Шерлок\ при\ смерти.jpg) 0 0 / cover no-repeat;
+																																	}
+																																	.episodes a:nth-child(13) {
+																																		background: url(../img/Последнее\ дело.jpg) 0 0 / cover no-repeat;
+																																				}
+.episode:visited{
+color: blue;
+}
+.episode:hover{
+	outline: 4px solid red;
+}
+.episode:active{
+	outline: 4px solid green;
+}
+.issues a:nth-child(2) {
+	background: url(../img/Долгих\ лет\ жизни.jpg) 0 0 / cover no-repeat;
+			}
+			.issues a:nth-child(3) {
+				background: url(../img/Безобразная\ невеста.jpg) 0 0 / cover no-repeat;
+						}
+.issues {
+padding: 20px;
+	}
+	h3{
+		font-family:'Caveat';
+		font-weight: 500;
+		font-size: 30px;
+		padding-left: 20px;
+		margin-bottom: 20px;
+		}
+	.sherlok-holms{
+		font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+	   margin-bottom: 50px;
+			}
+	.sherlok-holms::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Шерлок.jpg) 0 0 / cover no-repeat;
+	}
+	.watson{
+		font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 50px;
+			}
+			
+	.watson::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Ватсон.jpg) 0 0 / cover no-repeat;
+	}
+	.sherlok-maik{
+		font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 140px;
+	}
+	.sherlok-maik::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Майкрофт.jpg) 0 0 / cover no-repeat;
+	}
+
+	.hadson {font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 170px;
+	}
+	.hadson::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Хадсон.jpg) 0 0 / cover no-repeat;
+	}
+	
+	.lestreyd {font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 150px;
+	}
+	.lestreyd::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Лейстрейд.jpg) 0 0 / cover no-repeat;
+	}
+	.hooper {font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 120px;
+	}
+	.hooper::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Хупер.jpg) 0 0 / cover no-repeat;
+	}
+	.moriarty {
+		font-family: 'Ubuntu';
+		font-weight: 400;
+		font-size: 20px;
+		padding: 0 20px 0 230px;
+		margin-bottom: 50px;
+	}
+	.moriarty::before{
+		content:"";
+		width: 200px;
+		height: 200px;
+	   display: inline-block;
+		margin: 0px 0px -210px -220px;
+		background: url(../img/Мориарти.jpg) 0 0 / cover no-repeat;
+	}
+	.actors a:hover{
+		color: blueviolet;
+		text-decoration: underline;
+			}
+			.actors a:focus{
+				border-radius: 5px;
+				outline: 5px solid blueviolet;
+					}
+
+					.episodes__sherlock p{
+						text-indent: 0;
+						line-height: 130%;
+		 				text-align: justify;
+						font-family: 'Ubuntu';
+						font-weight: 400;
+						font-size: 20px;
+						padding: 0 300px 0 300px;
+						
+					}
+					.episodes__sherlock div{
+						margin-bottom: 50px;
+					}
+					.issues__sherlock p{
+						text-indent: 0;
+						line-height: 130%;
+		 				text-align: justify;
+						font-family: 'Ubuntu';
+						font-weight: 400;
+						font-size: 20px;
+						padding: 0 300px 0 300px;
+						
+					}
+					.issues__sherlock div{
+						margin-bottom: 50px;
+					}
+
+					.link-figma {
+						width: 600px;
+						box-shadow: inset 0px 0px 10px 5px rgb(5, 5, 5);
+						margin-bottom: 25px;
+						text-align: center;
+						border-radius: 50px;
+						padding: 30px 0 30px 0;
+						background-color: cadetblue;
+						font-family: "Ubuntu";
+						text-transform: uppercase;
+						font-size: 40px;
+						padding: 20px;
+						}
+						.link-figma:hover {
+							text-decoration: underline;
