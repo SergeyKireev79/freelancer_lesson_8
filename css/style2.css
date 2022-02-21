@@ -53,6 +53,7 @@ body{
       
    }
    .button {
+   display: inline-block;
    width: 161px;
    height: 44px;
    font-weight: 700;
@@ -62,6 +63,7 @@ body{
    text-align: center;
    letter-spacing: 0.5px;
    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+
    }
 
    .page2 {
@@ -83,7 +85,7 @@ body{
       }
 
       .link-figma {
-         width: 600px;
+         display: inline-block;
          box-shadow: inset 0px 0px 10px 5px rgb(5, 5, 5);
          margin-bottom: 25px;
          text-align: center;
